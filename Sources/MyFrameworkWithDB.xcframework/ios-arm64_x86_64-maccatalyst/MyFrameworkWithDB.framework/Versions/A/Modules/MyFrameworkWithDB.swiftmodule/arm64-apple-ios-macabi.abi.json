@@ -1,0 +1,2451 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoginViewController",
+        "printedName": "LoginViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "emailTextField",
+            "printedName": "emailTextField",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB19LoginViewControllerC14emailTextFieldSo06UITextJ0Cvp",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC14emailTextFieldSo06UITextJ0Cvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITextField",
+                    "printedName": "UIKit.UITextField",
+                    "usr": "c:objc(cs)UITextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC14emailTextFieldSo06UITextJ0Cvg",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC14emailTextFieldSo06UITextJ0Cvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passwordTextField",
+            "printedName": "passwordTextField",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB19LoginViewControllerC17passwordTextFieldSo06UITextJ0Cvp",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC17passwordTextFieldSo06UITextJ0Cvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITextField",
+                    "printedName": "UIKit.UITextField",
+                    "usr": "c:objc(cs)UITextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC17passwordTextFieldSo06UITextJ0Cvg",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC17passwordTextFieldSo06UITextJ0Cvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "showHidePasswordButton",
+            "printedName": "showHidePasswordButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB19LoginViewControllerC22showHidePasswordButtonSo8UIButtonCvp",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC22showHidePasswordButtonSo8UIButtonCvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC22showHidePasswordButtonSo8UIButtonCvg",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC22showHidePasswordButtonSo8UIButtonCvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loginButton",
+            "printedName": "loginButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB19LoginViewControllerC11loginButtonSo8UIButtonCvp",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC11loginButtonSo8UIButtonCvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC11loginButtonSo8UIButtonCvg",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC11loginButtonSo8UIButtonCvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "newUserLabel",
+            "printedName": "newUserLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB19LoginViewControllerC12newUserLabelSo7UILabelCvp",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC12newUserLabelSo7UILabelCvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC12newUserLabelSo7UILabelCvg",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC12newUserLabelSo7UILabelCvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "registerButton",
+            "printedName": "registerButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB19LoginViewControllerC14registerButtonSo8UIButtonCvp",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC14registerButtonSo8UIButtonCvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC14registerButtonSo8UIButtonCvg",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC14registerButtonSo8UIButtonCvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "user",
+            "printedName": "user",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MyFrameworkWithDB.User?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "MyFrameworkWithDB.User",
+                    "usr": "c:@M@MyFrameworkWithDB@objc(cs)User"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB19LoginViewControllerC4userAA4UserCSgvp",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC4userAA4UserCSgvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MyFrameworkWithDB.User?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "User",
+                        "printedName": "MyFrameworkWithDB.User",
+                        "usr": "c:@M@MyFrameworkWithDB@objc(cs)User"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC4userAA4UserCSgvg",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC4userAA4UserCSgvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MyFrameworkWithDB.User?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "User",
+                        "printedName": "MyFrameworkWithDB.User",
+                        "usr": "c:@M@MyFrameworkWithDB@objc(cs)User"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC4userAA4UserCSgvs",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC4userAA4UserCSgvs",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC4userAA4UserCSgvM",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC4userAA4UserCSgvM",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loginCompletion",
+            "printedName": "loginCompletion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((MyFrameworkWithDB.User) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(MyFrameworkWithDB.User) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "User",
+                        "printedName": "MyFrameworkWithDB.User",
+                        "usr": "c:@M@MyFrameworkWithDB@objc(cs)User"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB19LoginViewControllerC15loginCompletionyAA4UserCcSgvp",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC15loginCompletionyAA4UserCcSgvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MyFrameworkWithDB.User) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MyFrameworkWithDB.User) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "User",
+                            "printedName": "MyFrameworkWithDB.User",
+                            "usr": "c:@M@MyFrameworkWithDB@objc(cs)User"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC15loginCompletionyAA4UserCcSgvg",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC15loginCompletionyAA4UserCcSgvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((MyFrameworkWithDB.User) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(MyFrameworkWithDB.User) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "User",
+                            "printedName": "MyFrameworkWithDB.User",
+                            "usr": "c:@M@MyFrameworkWithDB@objc(cs)User"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC15loginCompletionyAA4UserCcSgvs",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC15loginCompletionyAA4UserCcSgvs",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB19LoginViewControllerC15loginCompletionyAA4UserCcSgvM",
+                "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC15loginCompletionyAA4UserCcSgvM",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MyFrameworkWithDB@objc(cs)LoginViewController(im)viewDidLoad",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC11viewDidLoadyyF",
+            "moduleName": "MyFrameworkWithDB",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoginViewController",
+                "printedName": "MyFrameworkWithDB.LoginViewController",
+                "usr": "c:@M@MyFrameworkWithDB@objc(cs)LoginViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MyFrameworkWithDB@objc(cs)LoginViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MyFrameworkWithDB",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MyFrameworkWithDB.LoginViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LoginViewController",
+                    "printedName": "MyFrameworkWithDB.LoginViewController",
+                    "usr": "c:@M@MyFrameworkWithDB@objc(cs)LoginViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MyFrameworkWithDB@objc(cs)LoginViewController(im)initWithCoder:",
+            "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MyFrameworkWithDB",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MyFrameworkWithDB@objc(cs)LoginViewController",
+        "mangledName": "$s17MyFrameworkWithDB19LoginViewControllerC",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserRegistrationError",
+        "printedName": "UserRegistrationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB21UserRegistrationErrorC7messageSSvp",
+            "mangledName": "$s17MyFrameworkWithDB21UserRegistrationErrorC7messageSSvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB21UserRegistrationErrorC7messageSSvg",
+                "mangledName": "$s17MyFrameworkWithDB21UserRegistrationErrorC7messageSSvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserRegistrationError",
+                "printedName": "MyFrameworkWithDB.UserRegistrationError",
+                "usr": "s:17MyFrameworkWithDB21UserRegistrationErrorC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17MyFrameworkWithDB21UserRegistrationErrorCyACSScfc",
+            "mangledName": "$s17MyFrameworkWithDB21UserRegistrationErrorCyACSScfc",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB21UserRegistrationErrorC16errorDescriptionSSSgvp",
+            "mangledName": "$s17MyFrameworkWithDB21UserRegistrationErrorC16errorDescriptionSSSgvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB21UserRegistrationErrorC16errorDescriptionSSSgvg",
+                "mangledName": "$s17MyFrameworkWithDB21UserRegistrationErrorC16errorDescriptionSSSgvg",
+                "moduleName": "MyFrameworkWithDB",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:17MyFrameworkWithDB21UserRegistrationErrorC",
+        "mangledName": "$s17MyFrameworkWithDB21UserRegistrationErrorC",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignupViewController",
+        "printedName": "SignupViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nameTextField",
+            "printedName": "nameTextField",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB20SignupViewControllerC13nameTextFieldSo06UITextJ0Cvp",
+            "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC13nameTextFieldSo06UITextJ0Cvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITextField",
+                    "printedName": "UIKit.UITextField",
+                    "usr": "c:objc(cs)UITextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB20SignupViewControllerC13nameTextFieldSo06UITextJ0Cvg",
+                "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC13nameTextFieldSo06UITextJ0Cvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "emailTextField",
+            "printedName": "emailTextField",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB20SignupViewControllerC14emailTextFieldSo06UITextJ0Cvp",
+            "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC14emailTextFieldSo06UITextJ0Cvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITextField",
+                    "printedName": "UIKit.UITextField",
+                    "usr": "c:objc(cs)UITextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB20SignupViewControllerC14emailTextFieldSo06UITextJ0Cvg",
+                "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC14emailTextFieldSo06UITextJ0Cvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mobileTextField",
+            "printedName": "mobileTextField",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB20SignupViewControllerC15mobileTextFieldSo06UITextJ0Cvp",
+            "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC15mobileTextFieldSo06UITextJ0Cvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITextField",
+                    "printedName": "UIKit.UITextField",
+                    "usr": "c:objc(cs)UITextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB20SignupViewControllerC15mobileTextFieldSo06UITextJ0Cvg",
+                "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC15mobileTextFieldSo06UITextJ0Cvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "passwordTextField",
+            "printedName": "passwordTextField",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB20SignupViewControllerC17passwordTextFieldSo06UITextJ0Cvp",
+            "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC17passwordTextFieldSo06UITextJ0Cvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITextField",
+                    "printedName": "UIKit.UITextField",
+                    "usr": "c:objc(cs)UITextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB20SignupViewControllerC17passwordTextFieldSo06UITextJ0Cvg",
+                "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC17passwordTextFieldSo06UITextJ0Cvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "confirmPasswordTextField",
+            "printedName": "confirmPasswordTextField",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UITextField",
+                "printedName": "UIKit.UITextField",
+                "usr": "c:objc(cs)UITextField"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB20SignupViewControllerC24confirmPasswordTextFieldSo06UITextK0Cvp",
+            "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC24confirmPasswordTextFieldSo06UITextK0Cvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UITextField",
+                    "printedName": "UIKit.UITextField",
+                    "usr": "c:objc(cs)UITextField"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB20SignupViewControllerC24confirmPasswordTextFieldSo06UITextK0Cvg",
+                "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC24confirmPasswordTextFieldSo06UITextK0Cvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "registerButton",
+            "printedName": "registerButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17MyFrameworkWithDB20SignupViewControllerC14registerButtonSo8UIButtonCvp",
+            "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC14registerButtonSo8UIButtonCvp",
+            "moduleName": "MyFrameworkWithDB",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17MyFrameworkWithDB20SignupViewControllerC14registerButtonSo8UIButtonCvg",
+                "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC14registerButtonSo8UIButtonCvg",
+                "moduleName": "MyFrameworkWithDB",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MyFrameworkWithDB@objc(cs)SignupViewController(im)viewDidLoad",
+            "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC11viewDidLoadyyF",
+            "moduleName": "MyFrameworkWithDB",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SignupViewController",
+                "printedName": "MyFrameworkWithDB.SignupViewController",
+                "usr": "c:@M@MyFrameworkWithDB@objc(cs)SignupViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MyFrameworkWithDB@objc(cs)SignupViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MyFrameworkWithDB",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MyFrameworkWithDB.SignupViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SignupViewController",
+                    "printedName": "MyFrameworkWithDB.SignupViewController",
+                    "usr": "c:@M@MyFrameworkWithDB@objc(cs)SignupViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MyFrameworkWithDB@objc(cs)SignupViewController(im)initWithCoder:",
+            "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MyFrameworkWithDB",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MyFrameworkWithDB@objc(cs)SignupViewController",
+        "mangledName": "$s17MyFrameworkWithDB20SignupViewControllerC",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoginSDK",
+        "printedName": "LoginSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "validateLoginData",
+            "printedName": "validateLoginData(email:pw:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MyFrameworkWithDB8LoginSDKV08validateE4Data5email2pwSSSgSS_SStFZ",
+            "mangledName": "$s17MyFrameworkWithDB8LoginSDKV08validateE4Data5email2pwSSSgSS_SStFZ",
+            "moduleName": "MyFrameworkWithDB",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loginUser",
+            "printedName": "loginUser(email:password:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<MyFrameworkWithDB.User, MyFrameworkWithDB.UserRegistrationError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "MyFrameworkWithDB.User",
+                    "usr": "c:@M@MyFrameworkWithDB@objc(cs)User"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserRegistrationError",
+                    "printedName": "MyFrameworkWithDB.UserRegistrationError",
+                    "usr": "s:17MyFrameworkWithDB21UserRegistrationErrorC"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MyFrameworkWithDB8LoginSDKV9loginUser5email8passwords6ResultOyAA0H0CAA0H17RegistrationErrorCGSS_SStFZ",
+            "mangledName": "$s17MyFrameworkWithDB8LoginSDKV9loginUser5email8passwords6ResultOyAA0H0CAA0H17RegistrationErrorCGSS_SStFZ",
+            "moduleName": "MyFrameworkWithDB",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17MyFrameworkWithDB8LoginSDKV",
+        "mangledName": "$s17MyFrameworkWithDB8LoginSDKV",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "User",
+        "printedName": "User",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "User",
+                "printedName": "MyFrameworkWithDB.User",
+                "usr": "c:@M@MyFrameworkWithDB@objc(cs)User"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MyFrameworkWithDB@objc(cs)User(im)init",
+            "mangledName": "$s17MyFrameworkWithDB4UserCACycfc",
+            "moduleName": "MyFrameworkWithDB",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MyFrameworkWithDB@objc(cs)User",
+        "mangledName": "$s17MyFrameworkWithDB4UserC",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)RealmSwiftObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Realm.RealmSwiftObject",
+          "Realm.RLMObjectBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmSubscribable",
+            "printedName": "RealmSubscribable",
+            "usr": "s:10RealmSwift0A12SubscribableP",
+            "mangledName": "$s10RealmSwift0A12SubscribableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjcBridgeable",
+            "printedName": "_ObjcBridgeable",
+            "usr": "s:10RealmSwift15_ObjcBridgeableP",
+            "mangledName": "$s10RealmSwift15_ObjcBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KeypathSortable",
+            "printedName": "KeypathSortable",
+            "usr": "s:10RealmSwift15KeypathSortableP",
+            "mangledName": "$s10RealmSwift15KeypathSortableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WillChange",
+                    "printedName": "RealmSwift.RealmPublishers.WillChange<Realm.RealmSwiftObject>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RealmSwiftObject",
+                        "printedName": "Realm.RealmSwiftObject",
+                        "usr": "c:objc(cs)RealmSwiftObject"
+                      }
+                    ],
+                    "usr": "s:10RealmSwift0A10PublishersO10WillChangeV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_PersistableInsideOptional",
+            "printedName": "_PersistableInsideOptional",
+            "usr": "s:10RealmSwift26_PersistableInsideOptionalP",
+            "mangledName": "$s10RealmSwift26_PersistableInsideOptionalP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_DefaultConstructible",
+            "printedName": "_DefaultConstructible",
+            "usr": "s:10RealmSwift21_DefaultConstructibleP",
+            "mangledName": "$s10RealmSwift21_DefaultConstructibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmSchemaDiscoverable",
+            "printedName": "_RealmSchemaDiscoverable",
+            "usr": "s:10RealmSwift01_A18SchemaDiscoverableP",
+            "mangledName": "$s10RealmSwift01_A18SchemaDiscoverableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_Persistable",
+            "printedName": "_Persistable",
+            "usr": "s:10RealmSwift12_PersistableP",
+            "mangledName": "$s10RealmSwift12_PersistableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasPersistedType",
+            "printedName": "_HasPersistedType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "PersistedType",
+                "printedName": "PersistedType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RealmSwiftObject",
+                    "printedName": "Realm.RealmSwiftObject",
+                    "usr": "c:objc(cs)RealmSwiftObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10RealmSwift17_HasPersistedTypeP",
+            "mangledName": "$s10RealmSwift17_HasPersistedTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmCollectionValueInsideOptional",
+            "printedName": "_RealmCollectionValueInsideOptional",
+            "usr": "s:10RealmSwift01_A29CollectionValueInsideOptionalP",
+            "mangledName": "$s10RealmSwift01_A29CollectionValueInsideOptionalP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmCollectionValue",
+            "printedName": "RealmCollectionValue",
+            "usr": "s:10RealmSwift0A15CollectionValueP",
+            "mangledName": "$s10RealmSwift0A15CollectionValueP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ThreadConfined",
+            "printedName": "ThreadConfined",
+            "usr": "s:10RealmSwift14ThreadConfinedP",
+            "mangledName": "$s10RealmSwift14ThreadConfinedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmFetchable",
+            "printedName": "RealmFetchable",
+            "usr": "s:10RealmSwift0A9FetchableP",
+            "mangledName": "$s10RealmSwift0A9FetchableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObservedResultsValue",
+            "printedName": "_ObservedResultsValue",
+            "usr": "s:10RealmSwift21_ObservedResultsValueP",
+            "mangledName": "$s10RealmSwift21_ObservedResultsValueP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SignupSDK",
+        "printedName": "SignupSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "validate",
+            "printedName": "validate(name:email:phoneNumber:password:confirmPw:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MyFrameworkWithDB9SignupSDKV8validate4name5email11phoneNumber8password9confirmPwSSSgSS_S4StFZ",
+            "mangledName": "$s17MyFrameworkWithDB9SignupSDKV8validate4name5email11phoneNumber8password9confirmPwSSSgSS_S4StFZ",
+            "moduleName": "MyFrameworkWithDB",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerUser",
+            "printedName": "registerUser(name:email:mobile:password:confirmPw:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Result",
+                "printedName": "Swift.Result<MyFrameworkWithDB.User, MyFrameworkWithDB.UserRegistrationError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "User",
+                    "printedName": "MyFrameworkWithDB.User",
+                    "usr": "c:@M@MyFrameworkWithDB@objc(cs)User"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserRegistrationError",
+                    "printedName": "MyFrameworkWithDB.UserRegistrationError",
+                    "usr": "s:17MyFrameworkWithDB21UserRegistrationErrorC"
+                  }
+                ],
+                "usr": "s:s6ResultO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17MyFrameworkWithDB9SignupSDKV12registerUser4name5email6mobile8password9confirmPws6ResultOyAA0H0CAA0H17RegistrationErrorCGSS_S4StFZ",
+            "mangledName": "$s17MyFrameworkWithDB9SignupSDKV12registerUser4name5email6mobile8password9confirmPws6ResultOyAA0H0CAA0H17RegistrationErrorCGSS_S4StFZ",
+            "moduleName": "MyFrameworkWithDB",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:17MyFrameworkWithDB9SignupSDKV",
+        "mangledName": "$s17MyFrameworkWithDB9SignupSDKV",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MyFrameworkWithDB"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 288,
+      "length": 7,
+      "value": "\"Email\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 378,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 449,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 608,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 772,
+      "length": 10,
+      "value": "\"Password\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 865,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 936,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 979,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1091,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1256,
+      "length": 6,
+      "value": "\"Show\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1320,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1332,
+      "length": 5,
+      "value": "151.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1338,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1351,
+      "length": 5,
+      "value": "178.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1357,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1371,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1551,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1702,
+      "length": 7,
+      "value": "\"Login\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1822,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1834,
+      "length": 5,
+      "value": "151.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1840,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1853,
+      "length": 5,
+      "value": "178.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1859,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1873,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1945,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2098,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2231,
+      "length": 11,
+      "value": "\"New User?\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2334,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2487,
+      "length": 10,
+      "value": "\"Register\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2555,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2567,
+      "length": 5,
+      "value": "151.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2573,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2586,
+      "length": 5,
+      "value": "178.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2592,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2606,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2680,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/LoginViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2836,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 294,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 7,
+      "value": "\"Email\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 893,
+      "length": 8,
+      "value": "\"Mobile\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1052,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1216,
+      "length": 10,
+      "value": "\"Password\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1265,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1548,
+      "length": 18,
+      "value": "\"Confirm Password\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1605,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1717,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1874,
+      "length": 10,
+      "value": "\"Register\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1997,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2009,
+      "length": 5,
+      "value": "151.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2015,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2028,
+      "length": 5,
+      "value": "178.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2034,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2048,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2089,
+      "length": 3,
+      "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/SignupViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2245,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/User.swift",
+      "kind": "StringLiteral",
+      "offset": 244,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/User.swift",
+      "kind": "StringLiteral",
+      "offset": 290,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/User.swift",
+      "kind": "StringLiteral",
+      "offset": 336,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/theonetech\/Documents\/Projects\/PracticalTask\/Framework\/MyFrameworkWithDB\/MyFrameworkWithDB\/User.swift",
+      "kind": "StringLiteral",
+      "offset": 382,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

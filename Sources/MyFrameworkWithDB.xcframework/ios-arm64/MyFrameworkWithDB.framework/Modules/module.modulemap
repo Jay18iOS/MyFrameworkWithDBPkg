@@ -1,0 +1,11 @@
+framework module MyFrameworkWithDB {
+  umbrella header "MyFrameworkWithDB.h"
+
+  export *
+  module * { export * }
+}
+
+module MyFrameworkWithDB.Swift {
+  header "MyFrameworkWithDB-Swift.h"
+  requires objc
+}

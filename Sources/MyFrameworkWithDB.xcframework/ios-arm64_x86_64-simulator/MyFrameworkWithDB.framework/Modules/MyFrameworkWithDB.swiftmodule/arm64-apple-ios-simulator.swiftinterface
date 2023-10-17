@@ -1,0 +1,57 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios16.1-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MyFrameworkWithDB
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import MyFrameworkWithDB
+import RealmSwift
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class LoginViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public let emailTextField: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) final public let passwordTextField: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) final public let showHidePasswordButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) final public let loginButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) final public let newUserLabel: UIKit.UILabel
+  @_Concurrency.MainActor(unsafe) final public let registerButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) public var user: MyFrameworkWithDB.User?
+  @_Concurrency.MainActor(unsafe) public var loginCompletion: ((MyFrameworkWithDB.User) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public class UserRegistrationError : Swift.Error {
+  final public let message: Swift.String
+  public init(_ message: Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class SignupViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) final public let nameTextField: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) final public let emailTextField: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) final public let mobileTextField: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) final public let passwordTextField: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) final public let confirmPasswordTextField: UIKit.UITextField
+  @_Concurrency.MainActor(unsafe) final public let registerButton: UIKit.UIButton
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public struct LoginSDK {
+  public static func validateLoginData(email: Swift.String, pw: Swift.String) -> Swift.String?
+  public static func loginUser(email: Swift.String, password: Swift.String) -> Swift.Result<MyFrameworkWithDB.User, MyFrameworkWithDB.UserRegistrationError>
+}
+@objc @_inheritsConvenienceInitializers public class User : RealmSwift.Object {
+  @objc override dynamic public init()
+  @objc deinit
+}
+public struct SignupSDK {
+  public static func validate(name: Swift.String, email: Swift.String, phoneNumber: Swift.String, password: Swift.String, confirmPw: Swift.String) -> Swift.String?
+  public static func registerUser(name: Swift.String, email: Swift.String, mobile: Swift.String, password: Swift.String, confirmPw: Swift.String) -> Swift.Result<MyFrameworkWithDB.User, MyFrameworkWithDB.UserRegistrationError>
+}
